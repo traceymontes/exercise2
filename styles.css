@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(230, 151, 219);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.converter-container {
+    background-color: rgb(153, 25, 100);
+    width: 35%;
+    padding: 20px;
+    display: grid;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+.converter-container:hover {
+    background-color: rgba(212, 75, 167, 0.623);
+}
+
+h1, h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 8px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(176, 176, 176);
+}
